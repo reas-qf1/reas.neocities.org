@@ -667,15 +667,16 @@
   cover: 0049.png
 
 - id: '0050'
-  ia_id: reas7d-0172
+  ia_id: reas7d-0194
   title: Out Of Reality
   artist: reas
   date: 20201116
   category: 'reas: albums'
   cover: 0050.png
   description: |-
-    produced between August and November 2020, remastered version released April 8, 2024
-    old version available [here](https://archive.org/details/reas7d-0050)
+    produced between August and November 2020
+    remaster attempt 1 released April 8, 2024
+    current version released October 30, 2026
 
     ~~ intro ~~ (00:29)
 
@@ -700,11 +701,20 @@
     P.S. part A is supposed to be called 'Immersion', the current name is a result of poor translation from Russian
   links:
     - site: bc
-      link: 'https://reas7.bandcamp.com/album/out-of-reality-remastered'
-    - site: bc
-      description: Bandcamp (GLOBAL PATTERN DIGITAL SERVICES)
-      link: 'https://globalpatterndigital.bandcamp.com/album/out-of-reality'
+      link: 'https://reas7.bandcamp.com/album/out-of-reality'
     - site: yt
+      link: 'https://youtu.be/LXhkLQ4aaYE'
+    - site: bc
+      description: Bandcamp (GLOBAL PATTERN DIGITAL SERVICES; original release)
+      link: 'https://globalpatterndigital.bandcamp.com/album/out-of-reality'
+    - site: ia
+      description: Internet Archive (original release)
+      link: 'https://archive.org/details/reas7d-0050'
+    - site: ia
+      description: Internet Archive (2024 release)
+      link: 'https://archive.org/details/reas7d-0172'
+    - site: yt
+      description: YouTube (original release)
       link: 'https://youtu.be/n-MqIfWMrVA'
 
 - id: '0051'
@@ -3089,19 +3099,19 @@
       link: 'https://youtu.be/wMtWXiZvBF0'
   samples:
     - tracks: '2, 13'
-      description: 1988 Honda QUINT INTEGRA CM
+      name: 1988 Honda QUINT INTEGRA CM
       link: https://youtu.be/KLdM2pw57Bk
     - tracks: 7
-      description: Kirin CM compilation
+      name: Kirin CM compilation
       link: https://youtu.be/V00PVjnPaP4?t=1139
     - tracks: '8, 14'
-      description: SOGO CM
+      name: SOGO CM
       link: https://youtu.be/MD-qfImyEp0?t=60
     - tracks: '10, 14'
-      description: 1980 HINO RANGER CM
+      name: 1980 HINO RANGER CM
       link: https://youtu.be/MCp2hVZGUoU
     - tracks: 11
-      description: Toshiba CM
+      name: Toshiba CM
       link: https://youtu.be/NfhiKhVtEUo?t=535
 
 - id: '0156'
@@ -3484,6 +3494,8 @@
     Cover art by EXSHA:
     https://exsha.bandcamp.com/
     https://twitter.com/ss_exsha
+    
+    (this album was updated on October 23, 2026 to sound slightly better)
   links:
     - site: bc
       link: 'https://reas7.bandcamp.com/album/satellite'
@@ -3829,3 +3841,15 @@
   description: |-
     memorykeeper7:
     https://memorykeeper7.bandcamp.com/
+
+- id: '0189'
+  ia_id: reas7d-0193
+  title: cut///.misc.A
+  artist: Sphyral & worldwide networks
+  artist_sort: Sphyral
+  date: 20260904
+  category: equals0 - miscellaneous
+  cover: 0187.png
+  links:
+    - site: bc
+      link: https://equals0.bandcamp.com/album/cut-misc-a

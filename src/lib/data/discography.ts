@@ -2,7 +2,7 @@
 import { type Release } from "$lib/common";
 
 export const discography: { lastUpdated: number, entries: Array<Release> } = {
-    "lastUpdated": 20260805,
+    "lastUpdated": 20261030,
     "entries": [
         {
             "id": "0001",
@@ -865,25 +865,40 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
         },
         {
             "id": "0050",
-            "ia_id": "reas7d-0172",
+            "ia_id": "reas7d-0194",
             "title": "Out Of Reality",
             "artist": "reas",
             "date": 20201116,
             "category": "reas: albums",
             "cover": "0050.png",
-            "description": "produced between August and November 2020, remastered version released April 8, 2024\nold version available [here](https://archive.org/details/reas7d-0050)\n\n~~ intro ~~ (00:29)\n\nPart A: Diving (22:47)  \n-- Lights (06:24)\n-- Field (05:20)\n-- Far Away (06:51)\n-- Tranquility (04:11)\n\n~~ transition ~~ (02:44)\n\nPart B: Dreams (28:35)  \n-- Underwater (03:33)\n-- Forest Wind (06:44)\n-- Left Alone (07:20)\n-- Reflections (10:57)\n\n~~ outro ~~ (01:32)\n\ntotal - 56:09\n\nP.S. part A is supposed to be called 'Immersion', the current name is a result of poor translation from Russian",
+            "description": "produced between August and November 2020\nremaster attempt 1 released April 8, 2024\ncurrent version released October 30, 2026\n\n~~ intro ~~ (00:29)\n\nPart A: Diving (22:47)  \n-- Lights (06:24)\n-- Field (05:20)\n-- Far Away (06:51)\n-- Tranquility (04:11)\n\n~~ transition ~~ (02:44)\n\nPart B: Dreams (28:35)  \n-- Underwater (03:33)\n-- Forest Wind (06:44)\n-- Left Alone (07:20)\n-- Reflections (10:57)\n\n~~ outro ~~ (01:32)\n\ntotal - 56:09\n\nP.S. part A is supposed to be called 'Immersion', the current name is a result of poor translation from Russian",
             "links": [
                 {
                     "site": "bc",
-                    "link": "https://reas7.bandcamp.com/album/out-of-reality-remastered"
-                },
-                {
-                    "site": "bc",
-                    "description": "Bandcamp (GLOBAL PATTERN DIGITAL SERVICES)",
-                    "link": "https://globalpatterndigital.bandcamp.com/album/out-of-reality"
+                    "link": "https://reas7.bandcamp.com/album/out-of-reality"
                 },
                 {
                     "site": "yt",
+                    "link": "https://youtu.be/LXhkLQ4aaYE"
+                },
+                {
+                    "site": "bc",
+                    "description": "Bandcamp (GLOBAL PATTERN DIGITAL SERVICES; original release)",
+                    "link": "https://globalpatterndigital.bandcamp.com/album/out-of-reality"
+                },
+                {
+                    "site": "ia",
+                    "description": "Internet Archive (original release)",
+                    "link": "https://archive.org/details/reas7d-0050"
+                },
+                {
+                    "site": "ia",
+                    "description": "Internet Archive (2024 release)",
+                    "link": "https://archive.org/details/reas7d-0172"
+                },
+                {
+                    "site": "yt",
+                    "description": "YouTube (original release)",
                     "link": "https://youtu.be/n-MqIfWMrVA"
                 }
             ]
@@ -3986,27 +4001,27 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
             "samples": [
                 {
                     "tracks": "2, 13",
-                    "description": "1988 Honda QUINT INTEGRA CM",
+                    "name": "1988 Honda QUINT INTEGRA CM",
                     "link": "https://youtu.be/KLdM2pw57Bk"
                 },
                 {
                     "tracks": 7,
-                    "description": "Kirin CM compilation",
+                    "name": "Kirin CM compilation",
                     "link": "https://youtu.be/V00PVjnPaP4?t=1139"
                 },
                 {
                     "tracks": "8, 14",
-                    "description": "SOGO CM",
+                    "name": "SOGO CM",
                     "link": "https://youtu.be/MD-qfImyEp0?t=60"
                 },
                 {
                     "tracks": "10, 14",
-                    "description": "1980 HINO RANGER CM",
+                    "name": "1980 HINO RANGER CM",
                     "link": "https://youtu.be/MCp2hVZGUoU"
                 },
                 {
                     "tracks": 11,
-                    "description": "Toshiba CM",
+                    "name": "Toshiba CM",
                     "link": "https://youtu.be/NfhiKhVtEUo?t=535"
                 }
             ]
@@ -4506,7 +4521,7 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
             "date": 20250516,
             "category": "reas: albums",
             "cover": "0174.png",
-            "description": "Georgi1802:\nhttps://georgi1802.bandcamp.com/\nhttps://unlimitedcreationinc.bandcamp.com/\nhttps://twitter.com/georgi1802\nhttps://www.instagram.com/georgi18002\nhttps://bsky.app/profile/georgi1802.bsky.social\n\nCover art by EXSHA:\nhttps://exsha.bandcamp.com/\nhttps://twitter.com/ss_exsha",
+            "description": "Georgi1802:\nhttps://georgi1802.bandcamp.com/\nhttps://unlimitedcreationinc.bandcamp.com/\nhttps://twitter.com/georgi1802\nhttps://www.instagram.com/georgi18002\nhttps://bsky.app/profile/georgi1802.bsky.social\n\nCover art by EXSHA:\nhttps://exsha.bandcamp.com/\nhttps://twitter.com/ss_exsha\n\n(this album was updated on October 23, 2026 to sound slightly better)",
             "links": [
                 {
                     "site": "bc",
@@ -4975,6 +4990,22 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                 }
             ],
             "description": "memorykeeper7:\nhttps://memorykeeper7.bandcamp.com/"
+        },
+        {
+            "id": "0189",
+            "ia_id": "reas7d-0193",
+            "title": "cut///.misc.A",
+            "artist": "Sphyral & worldwide networks",
+            "artist_sort": "Sphyral",
+            "date": 20260904,
+            "category": "equals0 - miscellaneous",
+            "cover": "0187.png",
+            "links": [
+                {
+                    "site": "bc",
+                    "link": "https://equals0.bandcamp.com/album/cut-misc-a"
+                }
+            ]
         }
     ]
 };

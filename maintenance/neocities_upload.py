@@ -20,7 +20,7 @@ nc = neocities.NeoCities(auth['nc-user'],auth['nc-pass'])
 response = nc.listitems()
 file_info = {}
 for file in response['files']:
-    if not file['is_directory']:
+    if not file['path'].startswith('.well-known') and not file['is_directory']:
         file_info[file['path']] = file
 
 web_files = set(file_info.keys())
