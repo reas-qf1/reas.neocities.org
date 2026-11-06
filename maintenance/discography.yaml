@@ -956,7 +956,7 @@
 - id: '0064'
   title: "\U0001F499"
   artist: reas
-  ia_id: reas7d-0063
+  ia_id: reas7d-0195
   date: 20210425
   category: 'reas: albums'
   cover: 0064.png
@@ -964,14 +964,22 @@
     inspired by long walks in Saint Petersburg
 
     released on TLS Records
+    
+    remaster released November 6, 2026
   links:
     - site: bc
       link: 'https://reas7.bandcamp.com/album/--22'
     - site: bc
-      description: Bandcamp (TLS Records)
+      description: Bandcamp (TLS Records, 2021 release)
       link: 'https://tlsrecords1.bandcamp.com/album/-'
     - site: yt
+      link: 'https://youtu.be/Pkhil7B3oQ4'
+    - site: yt
+      description: YouTube (2021 release)
       link: 'https://youtu.be/jSiEY6l98Ps'
+    - site: ia
+      description: Internet Archive (2021 release)
+      link: 'https://archive.org/details/reas7d-0063'
 
 - id: '0065'
   ia_id: reas7d-0064
@@ -1062,7 +1070,7 @@
     Foreverless Eternity is a part of UCI:
     https://unlimitedcreationinc.bandcamp.com/
 
-- id: 0069
+- id: '0069'
   ia_id: reas7d-0068
   title: 森林的气味
   artist: ｄｒｅａｍ．ｗａｖ
@@ -3101,7 +3109,7 @@
     - tracks: '2, 13'
       name: 1988 Honda QUINT INTEGRA CM
       link: https://youtu.be/KLdM2pw57Bk
-    - tracks: 7
+    - tracks: '7'
       name: Kirin CM compilation
       link: https://youtu.be/V00PVjnPaP4?t=1139
     - tracks: '8, 14'
@@ -3110,7 +3118,7 @@
     - tracks: '10, 14'
       name: 1980 HINO RANGER CM
       link: https://youtu.be/MCp2hVZGUoU
-    - tracks: 11
+    - tracks: '11'
       name: Toshiba CM
       link: https://youtu.be/NfhiKhVtEUo?t=535
 
@@ -3853,3 +3861,6 @@
   links:
     - site: bc
       link: https://equals0.bandcamp.com/album/cut-misc-a
+  description: |-
+    aka /// Signals EXT
+    the [archive.org upload](https://archive.org/details/reas7d-0193) has visuals for tracks 1, 2, 4, and 5

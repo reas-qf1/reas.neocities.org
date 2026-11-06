@@ -27,5 +27,7 @@ r = upload(info['id'], folder + '/', verbose=True, metadata={
 	'licenseurl': 'http://creativecommons.org/licenses/by-nc-sa/4.0/',
 	'mediatype': 'audio',
 	'title': info['title']
-	})
+	},
+	queue_derive=True,
+	checksum=True)
 print(r)

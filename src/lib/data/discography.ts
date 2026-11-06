@@ -2,7 +2,7 @@
 import { type Release } from "$lib/common";
 
 export const discography: { lastUpdated: number, entries: Array<Release> } = {
-    "lastUpdated": 20261030,
+    "lastUpdated": 20261106,
     "entries": [
         {
             "id": "0001",
@@ -1235,11 +1235,11 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
             "id": "0064",
             "title": "\ud83d\udc99",
             "artist": "reas",
-            "ia_id": "reas7d-0063",
+            "ia_id": "reas7d-0195",
             "date": 20210425,
             "category": "reas: albums",
             "cover": "0064.png",
-            "description": "inspired by long walks in Saint Petersburg\n\nreleased on TLS Records",
+            "description": "inspired by long walks in Saint Petersburg\n\nreleased on TLS Records\n\nremaster released November 6, 2026",
             "links": [
                 {
                     "site": "bc",
@@ -1247,12 +1247,22 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                 },
                 {
                     "site": "bc",
-                    "description": "Bandcamp (TLS Records)",
+                    "description": "Bandcamp (TLS Records, 2021 release)",
                     "link": "https://tlsrecords1.bandcamp.com/album/-"
                 },
                 {
                     "site": "yt",
+                    "description": "YouTube (2021 release)",
                     "link": "https://youtu.be/jSiEY6l98Ps"
+                },
+                {
+                    "site": "yt",
+                    "link": "https://youtu.be/Pkhil7B3oQ4"
+                },
+                {
+                    "site": "ia",
+                    "description": "Internet Archive (2021 release)",
+                    "link": "https://archive.org/details/reas7d-0063"
                 }
             ]
         },
@@ -4005,7 +4015,7 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                     "link": "https://youtu.be/KLdM2pw57Bk"
                 },
                 {
-                    "tracks": 7,
+                    "tracks": "7",
                     "name": "Kirin CM compilation",
                     "link": "https://youtu.be/V00PVjnPaP4?t=1139"
                 },
@@ -4020,7 +4030,7 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                     "link": "https://youtu.be/MCp2hVZGUoU"
                 },
                 {
-                    "tracks": 11,
+                    "tracks": "11",
                     "name": "Toshiba CM",
                     "link": "https://youtu.be/NfhiKhVtEUo?t=535"
                 }
@@ -5005,7 +5015,8 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                     "site": "bc",
                     "link": "https://equals0.bandcamp.com/album/cut-misc-a"
                 }
-            ]
+            ],
+            "description": "aka /// Signals EXT\nthe [archive.org upload](https://archive.org/details/reas7d-0193) has visuals for tracks 1, 2, 4, and 5"
         }
     ]
 };
