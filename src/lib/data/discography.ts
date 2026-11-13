@@ -2,7 +2,7 @@
 import { type Release } from "$lib/common";
 
 export const discography: { lastUpdated: number, entries: Array<Release> } = {
-    "lastUpdated": 20261106,
+    "lastUpdated": 20261113,
     "entries": [
         {
             "id": "0001",
@@ -1252,12 +1252,12 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                 },
                 {
                     "site": "yt",
-                    "description": "YouTube (2021 release)",
-                    "link": "https://youtu.be/jSiEY6l98Ps"
+                    "link": "https://youtu.be/Pkhil7B3oQ4"
                 },
                 {
                     "site": "yt",
-                    "link": "https://youtu.be/Pkhil7B3oQ4"
+                    "description": "YouTube (2021 release)",
+                    "link": "https://youtu.be/jSiEY6l98Ps"
                 },
                 {
                     "site": "ia",
@@ -1567,24 +1567,34 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
             "title": "The Greenhouse Shadows",
             "artist": "Zoro & reas",
             "artist_sort": "reas",
-            "ia_id": "reas7d-0074",
+            "ia_id": "reas7d-0197",
             "date": 20210716,
             "category": "reas: albums",
             "cover": "0076.png",
-            "description": "Zoro:\nhttps://twitter.com/zoroarkfilms",
+            "description": "remastered version released November 13, 2026\n\nZoro:\nhttps://twitter.com/zoroarkfilms",
             "links": [
                 {
                     "site": "bc",
                     "link": "https://reas7.bandcamp.com/album/the-greenhouse-shadows"
                 },
                 {
+                    "site": "yt",
+                    "link": "https://youtu.be/rFjoln28Ktg"
+                },
+                {
                     "site": "bc",
-                    "description": "Bandcamp (LIMINAL GARDEN)",
+                    "description": "Bandcamp (LIMINAL GARDEN, original release)",
                     "link": "https://liminalgarden.bandcamp.com/album/the-greenhouse-shadows"
                 },
                 {
                     "site": "yt",
+                    "description": "YouTube (original release)",
                     "link": "https://youtu.be/hfaqYEUYW2w"
+                },
+                {
+                    "site": "ia",
+                    "description": "Internet Archive (original release)",
+                    "link": "https://archive.org/details/reas7d-0074"
                 }
             ]
         },
@@ -5017,6 +5027,26 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                 }
             ],
             "description": "aka /// Signals EXT\nthe [archive.org upload](https://archive.org/details/reas7d-0193) has visuals for tracks 1, 2, 4, and 5"
+        },
+        {
+            "id": "0190",
+            "ia_id": "reas7d-0196",
+            "title": "2022///",
+            "artist": "Sphyral",
+            "date": 20261113,
+            "category": "Sphyral",
+            "cover": "0188.png",
+            "links": [
+                {
+                    "site": "bc",
+                    "link": "https://equals0.bandcamp.com/album/2022"
+                },
+                {
+                    "site": "yt",
+                    "link": "https://youtu.be/9WFgbE5IxJs"
+                }
+            ],
+            "description": "interesting moments from the recordings behind the 2022 sphyral albums, cut down to ~1 hour"
         }
     ]
 };
