@@ -1371,13 +1371,15 @@
       name: '平松愛理 [Eri Hiramatsu] - 駅のない遮断機 (Remix''93)'
 
 - id: '0086'
-  ia_id: reas7d-0084
+  ia_id: reas7d-0199
   title: Aurora
   artist: reas
   date: 20210924
   category: 'reas: albums'
   cover: 0086.png
   description: |-
+    remaster released November 20, 2026
+    
     My 1st experiment with sample-free slushwave.
 
     released on OasisLtd.
@@ -1416,11 +1418,17 @@
   links:
     - site: bc
       link: 'https://reas7.bandcamp.com/album/aurora'
+    - site: yt
+      link: 'https://youtu.be/9fnLsgF8aWU'
     - site: bc
-      description: Bandcamp (OasisLtd.)
+      description: Bandcamp (OasisLtd., original release)
       link: 'https://oasisltd.bandcamp.com/album/aurora'
     - site: yt
+      description: YouTube (original release)
       link: 'https://youtu.be/JMayPcSO67U'
+    - site: ia
+      description: Internet Archive (original release)
+      link: 'https://archive.org/details/reas7d-0084'
 
 - id: '0087'
   ia_id: reas7d-0085
@@ -3886,3 +3894,37 @@
     - site: yt
       link: https://youtu.be/9WFgbE5IxJs
   description: interesting moments from the recordings behind the 2022 sphyral albums, cut down to ~1 hour
+
+- id: '0191'
+  ia_id: reas7d-0188
+  title: shadows
+  artist: twilightdreams
+  date: 20261113
+  category: twilightdreams - chapter 3
+  cover: 0189.png
+  links:
+    - site: bc
+      link: 'https://twilightdreams1.bandcamp.com/album/shadows'
+    - site: yt
+      link: 'https://youtu.be/KjkiGBTtHc8'
+  samples:
+    - tracks: '1'
+      link: 'https://youtu.be/OIFASfPkw9g'
+      name: Toshiki Kadomatsu - 52nd Street
+
+- id: '0192'
+  ia_id: reas7d-0198
+  title: zenith
+  artist: twilightdreams
+  date: 20261117
+  category: twilightdreams - chapter 3
+  cover: 0190.png
+  links:
+    - site: bc
+      link: 'https://twilightdreams1.bandcamp.com/album/zenith'
+    - site: yt
+      link: 'https://youtu.be/zbSOFlRa26E'
+  samples:
+    - tracks: '1'
+      link: 'https://youtu.be/ZF96XNoFTZM'
+      name: Wish - You're the One

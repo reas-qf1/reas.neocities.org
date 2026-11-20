@@ -2,7 +2,7 @@
 import { type Release } from "$lib/common";
 
 export const discography: { lastUpdated: number, entries: Array<Release> } = {
-    "lastUpdated": 20261113,
+    "lastUpdated": 20261120,
     "entries": [
         {
             "id": "0001",
@@ -1776,26 +1776,36 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
         },
         {
             "id": "0086",
-            "ia_id": "reas7d-0084",
+            "ia_id": "reas7d-0199",
             "title": "Aurora",
             "artist": "reas",
             "date": 20210924,
             "category": "reas: albums",
             "cover": "0086.png",
-            "description": "My 1st experiment with sample-free slushwave.\n\nreleased on OasisLtd.\n\n------------------------------\n\nMany thanks to the artists who were featured in this album:\n\nSeggito\nhttps://twitter.com/seggito\nhttps://seggito.bandcamp.com\nhttps://linktr.ee/seggito\n(Note from Seggito: Thank you \u9aa8\u67b6\u7684/\u9ab7 for inspiring this track!!!!)\n\nEXSHA\nhttps://twitter.com/ss_exsha\nhttps://exsha.bandcamp.com\nhttps://linktr.ee/Exsha\n\ngeorgi1802\nhttps://twitter.com/georgi1802\nhttps://georgi1802.bandcamp.com\nhttps://unlimitedcreationinc.bandcamp.com\nhttps://technicolordreams.bandcamp.com\n\nbinary deconstructed\nhttps://twitter.com/01Deconstructed\nhttps://binarydeconstructed.bandcamp.com\n\nRykon\nhttps://twitter.com/RykonMusic\nhttps://rykn1.bandcamp.com\nhttps://soundcloud.com/rykon_music\n\nAlso, huge thanks to desert sand feels warm at night for being the inspiration for this album",
+            "description": "remaster released November 20, 2026\n\nMy 1st experiment with sample-free slushwave.\n\nreleased on OasisLtd.\n\n------------------------------\n\nMany thanks to the artists who were featured in this album:\n\nSeggito\nhttps://twitter.com/seggito\nhttps://seggito.bandcamp.com\nhttps://linktr.ee/seggito\n(Note from Seggito: Thank you \u9aa8\u67b6\u7684/\u9ab7 for inspiring this track!!!!)\n\nEXSHA\nhttps://twitter.com/ss_exsha\nhttps://exsha.bandcamp.com\nhttps://linktr.ee/Exsha\n\ngeorgi1802\nhttps://twitter.com/georgi1802\nhttps://georgi1802.bandcamp.com\nhttps://unlimitedcreationinc.bandcamp.com\nhttps://technicolordreams.bandcamp.com\n\nbinary deconstructed\nhttps://twitter.com/01Deconstructed\nhttps://binarydeconstructed.bandcamp.com\n\nRykon\nhttps://twitter.com/RykonMusic\nhttps://rykn1.bandcamp.com\nhttps://soundcloud.com/rykon_music\n\nAlso, huge thanks to desert sand feels warm at night for being the inspiration for this album",
             "links": [
                 {
                     "site": "bc",
                     "link": "https://reas7.bandcamp.com/album/aurora"
                 },
                 {
+                    "site": "yt",
+                    "link": "https://youtu.be/9fnLsgF8aWU"
+                },
+                {
                     "site": "bc",
-                    "description": "Bandcamp (OasisLtd.)",
+                    "description": "Bandcamp (OasisLtd., original release)",
                     "link": "https://oasisltd.bandcamp.com/album/aurora"
                 },
                 {
                     "site": "yt",
+                    "description": "YouTube (original release)",
                     "link": "https://youtu.be/JMayPcSO67U"
+                },
+                {
+                    "site": "ia",
+                    "description": "Internet Archive (original release)",
+                    "link": "https://archive.org/details/reas7d-0084"
                 }
             ]
         },
@@ -5047,6 +5057,58 @@ export const discography: { lastUpdated: number, entries: Array<Release> } = {
                 }
             ],
             "description": "interesting moments from the recordings behind the 2022 sphyral albums, cut down to ~1 hour"
+        },
+        {
+            "id": "0191",
+            "ia_id": "reas7d-0188",
+            "title": "shadows",
+            "artist": "twilightdreams",
+            "date": 20261113,
+            "category": "twilightdreams - chapter 3",
+            "cover": "0189.png",
+            "links": [
+                {
+                    "site": "bc",
+                    "link": "https://twilightdreams1.bandcamp.com/album/shadows"
+                },
+                {
+                    "site": "yt",
+                    "link": "https://youtu.be/KjkiGBTtHc8"
+                }
+            ],
+            "samples": [
+                {
+                    "tracks": "1",
+                    "link": "https://youtu.be/OIFASfPkw9g",
+                    "name": "Toshiki Kadomatsu - 52nd Street"
+                }
+            ]
+        },
+        {
+            "id": "0192",
+            "ia_id": "reas7d-0198",
+            "title": "zenith",
+            "artist": "twilightdreams",
+            "date": 20261117,
+            "category": "twilightdreams - chapter 3",
+            "cover": "0190.png",
+            "links": [
+                {
+                    "site": "bc",
+                    "link": "https://twilightdreams1.bandcamp.com/album/zenith"
+                },
+                {
+                    "site": "yt",
+                    "link": "https://youtu.be/zbSOFlRa26E"
+                }
+            ],
+            "samples": [
+                {
+                    "tracks": "1",
+                    "link": "https://youtu.be/ZF96XNoFTZM",
+                    "name": "Wish - You're the One"
+                }
+            ]
         }
     ]
 };
